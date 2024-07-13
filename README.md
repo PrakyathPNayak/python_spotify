@@ -1,3 +1,6 @@
+#THIS CODE IS NO LONGER WORKING AS YOUTUBE HAS BLOCKED THE DOWNLOADS
+
+
 # Spotify to YouTube Audio Downloader
 
 This script fetches tracks from your Spotify playlists, searches for the corresponding YouTube videos, and downloads the audio from these videos.
