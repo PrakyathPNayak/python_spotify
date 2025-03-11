@@ -8,11 +8,7 @@ from pytube import YouTube
 SPOTIFY_API_URL = "https://api.spotify.com/v1"
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_API_KEYS = [
-    "AIzaSyBTnea2CG-5BMShYTQldLlbhnEW6xfNJHs",
-    "AIzaSyDT0TBlMNtzv-NfkB20PfrAxQ9wz2MQmvY",
-    "AIzaSyD24-nGJlYZzy-hgG746XZcRVfprUdNXyk",
-    "AIzaSyAsnsXx4oeGrWQcVKusU9j8et0VKTzbpQk",
-    "AIzaSyCIWRWVdn6sl46jwGCoqaHxTWXs4GGtc7Q"
+    "your list lf keys here"
 ]
 
 # Function to get user's playlists from Spotify
@@ -115,8 +111,6 @@ def search_and_download_videos(track_names, artists, playlist_id):
 # Main execution point
 def main():
     token = "dummy_text"  # Initial dummy token
-
-    # Create the Tkinter window
     root = tk.Tk()
     root.withdraw()  # Hide the main window
 
